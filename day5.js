@@ -1201,22 +1201,92 @@ const sample = `3-5
 17
 32`;
 
-const [ranges, _] = input.split("\n\n").map((part) => part.split("\n"));
+// Split input into two blocks:
+// 1️⃣ ranges like "3-5"
+// 2️⃣ numbers like "1", "5", "8"
+const [ranges, _] = input
+  .split("\n\n")
+  .map(part => part.split("\n"));
+
+// Convert the number strings into actual numbers
 const numbers = _.map(Number);
 
 function isValidId(ranges, numbers) {
+  // Stores unique numbers that are valid
+  // Set is used to avoid double-counting the same number
   const validSet = new Set();
-  const parsedRanges = ranges.map((r) => r.split("-").map(Number));
 
+  // Convert "3-5" → [3, 5]
+  const parsedRanges = ranges.map(r => r.split("-").map(Number));
+
+  // For each number provided in input
   for (const num of numbers) {
+
+    // Check it against every range
     for (const [start, end] of parsedRanges) {
+
+      // If the number lies inside the current range
       if (num >= start && num <= end) {
+
+        // Mark it as valid
         validSet.add(num);
-        break; // stop once matched
+
+        // Stop checking other ranges for this number
+        // (one match is enough)
+        break;
       }
     }
   }
+
+  // Return how many UNIQUE valid numbers were found
   return validSet.size;
 }
 
-console.log(isValidId(ranges, numbers));
+
+function allValidIds(ranges) {
+
+  // Convert ranges into numeric intervals and sort by start value
+  // This allows merging overlapping ranges in one pass
+  const parsedRanges = ranges
+    .map(r => r.split("-").map(Number))
+    .sort((a, b) => a[0] - b[0]);
+
+  // This will store the final count of valid IDs
+  let total = 0;
+
+  // Start with the first range as the "current merged range"
+  let [currStart, currEnd] = parsedRanges[0];
+
+  // Iterate over remaining ranges
+  for (let i = 1; i < parsedRanges.length; i++) {
+    const [start, end] = parsedRanges[i];
+
+    // Case 1: Gap found — no overlap with current range
+    // Example: current = 3-5, next = 8-10
+    if (start > currEnd + 1) {
+
+      // Finalize the current range count
+      // Number of integers = end - start + 1
+      total += currEnd - currStart + 1;
+
+      // Start a new merged range
+      currStart = start;
+      currEnd = end;
+
+    } else {
+      // Case 2: Overlapping or adjacent ranges
+      // Example: 10-14 and 12-18
+      // Extend the current range to include the new one
+      currEnd = Math.max(currEnd, end);
+    }
+  }
+
+  // Add the last merged range after the loop
+  total += currEnd - currStart + 1;
+
+  return total;
+}
+
+
+console.log(isValidId(ranges, numbers)); // numbers that lie inside ranges
+console.log(allValidIds(ranges));        // total IDs covered by ranges
