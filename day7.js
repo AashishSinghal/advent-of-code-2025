@@ -187,4 +187,55 @@ function findNumberOfSplits(a) {
   return splits;
 }
 
-console.log("Number of Splits - ", findNumberOfSplits(a));
+function findNumberOfTimelines(grid) {
+  const ROWS = grid.length;
+  const COLS = grid[0].length;
+  let startCol = -1;
+
+  for (let c = 0; c < COLS; c++) {
+    if (grid[0][c] === "S") {
+      startCol = c;
+      break;
+    }
+  }
+
+  const memo = new Map();
+
+  function countTimelines(r, c) {
+    // 1️⃣ Base case: exited the grid
+    if (r >= ROWS || c < 0 || c >= COLS) {
+      return 1n; // one completed timeline
+    }
+
+    const key = `${r},${c}`;
+    if (memo.has(key)) {
+      return memo.get(key);
+    }
+
+    let result;
+
+    const cell = grid[r][c];
+
+    // 2️⃣ Empty space → continue straight down
+    if (cell === "." || cell === "S") {
+      result = countTimelines(r + 1, c);
+    }
+
+    // 3️⃣ Splitter → branch timelines
+    else if (cell === "^") {
+      const left = countTimelines(r + 1, c - 1);
+      const right = countTimelines(r + 1, c + 1);
+      result = left + right;
+    }
+
+    // 4️⃣ Cache and return
+    memo.set(key, result);
+    return result;
+  }
+
+  const timelines = countTimelines(1, startCol);
+  return timelines;
+}
+
+// console.log("Number of Splits - ", findNumberOfSplits(a));
+console.log("Number of Timelines - ", findNumberOfTimelines(a));
