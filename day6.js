@@ -4,17 +4,23 @@ const input = ` 36  9 44  94 191  122 775 7  468 436 37 21 6657 57 218 74 917 19
 114 76 3  142  56 6628 52  87 136 332 35 1   841 62  88 61 567 417 2197 41    7 31  11 14    8  8  7 9799 97  476 76 7796 213 81 195  165   6 78 79 2  3341 57 228 16   4  159 544 11 74 49   2 297 976 75 1    3  77 85 34  34  35 33 942 28 3  2   484 97 28 8772 44 2   42 37 56 73  8  7 89  645 249 9594 79   69 31 453 9  646 22 91 49 39  1  415 2  48 79  66  9  81   878  9 49 475 49  6534 12  6197 31 14 93 6    92 81 814 2631 53   83 39 8    5  3 132 581 95 154  9  231  9 625 7   48 6688 391 251 668 312 71 967 5   865 38 177 547 7393 6  336 92  71 28 927 169 3358 15 5  634 56  198 487 87 87 77   555  2 12  53 32 9437 36 745  21    4 1853 99 97 66   4 3    6 863  7 76 67 95 536 3   592 18 465 427  5 52  586 5476 773    47 395 5266 4428 28 468 22 6   35  74 74 9    3 563 674 456   67  35 958 117 53 49 473 678  4 69 5323 63 683 12 957 66 552 1483 19 71   62 97  981 92 33 68 46 21 541 472 42   8 2163 58 15   635 73   7 7  35    39 385 337   64  1 73 695    7 72  1  552 38   9 74 29 98 735  55 794 19 595 18    88 5789 27 1857 14   841 9  28 7   19   31 686 541 583 438 56 58 28 2   676  894 8     8 83  8    3      6  2  82 127 1  986 961  6 94 27 22  53 94 76 129 111  2 148 78 22 6744 4  94 9564 813 177  62 819  3 82 2  88 819  3 32 78 6     83 82 779 597 18 5372 84 8698 89  22    66 5693  1   39  34  31 2   99 8362 781 17  6864 67 45 81  81 29    5  43 577   5 2669 41  6 18  82 995 4  17 415 954 823 17 29 5   8   67  281 878  68  228 5285 95 39 241 85 8898  827 878 75   9 814 863  9 46 1369   71 18  15  7 1  55 58 1717 65  7 4234 531  25 7   51   34 665 13   7 93 85 76  24 459 93 94   5 12  66 76  682 21 4771 678 53 88 64   5448 4967 88 529  9 7631 925  86 55  42 96 2551 8916 688  9   3573 562 25 8117   9 44 358 6948 46 34 83 233 95 65 39 4  2333 21 42  4 63  145   1 241  31 2281  5 4646 673 51  37    3 76 8121 35  498 72 487 85 93 271 361 7188 788 41 915  8 5   1  652 182 729 44 28 72 512  8   85 3  646 962 522 427 297 339   73  2 9   343 157 415 31   1 1    24  4 679 493 5  648 278  27   57   6 48 916 292 9   3 285 373 3348 12   16   7 39 875 11   989 293 751 81 5553 59 33   2  498  5 2976 43 67 2   277 78 43 43 863 4838 91 92 65 97   766 7142 66 62 889 42    25 124 6  1  79  1685 26 7767 4771 96 91 56 1   3 23  25 7  39 77 73   161   3   8 94 146 16 73   17 159 7  945 34 77  486 87   6 191 38  773  8 637 23 47  737 6  999  6 1  28  7 112 348  49 17 889 46 1815  6 46  47 42 4951 45  4 69   9   76 149 213  3  3 932 531 2    26 4    4 8141 896 347   6 728 26 253 71 8   4   16 7    597  283 79 1259 88   214 191 18 21  3   156 9   514 58 182 748 6892 2566 5553 1  955    4 27 9  7363 656 498 92    2 331 446   4 32 864 438  83 554  54 181 83 8784  7 78 84 799 428 79 729 34   91   293 5862 43  52 37 638 79 36 78   839 1229 7332 4645 53  3   58 28 29   313 597 58 835  6 9  16 1487 96 2913 76  1 533  94 37   4  88 938 6347 4  55 914 6  288 836 853  61 742 95   9  1 28 29 21  72   7  39 32 99 76 67 91 75  856 688 22  82 395 3292   49 4   7487 6427 96   85 89  943 77 8972 1871  7 266 484 258 6499 236 438 3524 6756 1236  2 151  3 79  648 196 391 4  4721 5219 62 564 794  45 55   31 828  88 91 95 397 58 7173 549   55 52  557 545    4 2883  84 7126 57   7 5   36 1  16 29 97 46 93 28 228 17 3631 11 78 667 9572 15 181 9   83  414 387 141  37 17  91  17 452 49  78  33   1 556 7193 762 12 3341 86  8  632 449 39 34 832 565 9771 15  148 619 32 718 25 3569 29 267 834 5   25 79 97 587 648 418 4128  3 369  23 32 541 21  153 891 81   89  9 6  7   2741  35 2345 59 775 277 28  6 2    93 6591 8531 62 98 686 717 8937 55   1  62  4 3222 71 8     1 3371 77 19 57  3 4   85 75  533 6261 8  95 13 56 55 958 8  992 479 23 339 6713 68   95 969 48 8864 6573 5444 668 2   373 71 746 38  344 6797 845 99 86 55  1   433 5146 57 933 58 11   14 516   85 744  784 8961 39
 +   *  *  *   +   +    +   *  *   *   *  *  +    *  *   +  *   +   +    *  +    *  +   +   +   *  +  +    *  +    +  +    *   +  +    *   *   *  *  *  +    +  *   +    *  +   *   +  *  *  *   +   *   +  +    +  +  *  *   +  +   +  +   +  +  *   *   +  *  +    +  *  +   +  *  *  *  *  *   *   +   +    *  +    *  *   +  *   *  +  *  +   *  *   +  +  *   *   *  +    *   *  *  +   +   +    +   +    *  *  +  +    +  *  *   +    +    +  *  *  *   *  +   *   +  +   +  +    *  *   +   +  +    +   *   *   *   *  +   +   +   *  *   *   +    +  *   *   *  +  *   +   +    *  +  *   *   *   *   *  +  +   +    *  *  +   +  +    *  +    +   *   +    +  *  +  +   *  *   +   *  +  +  +  *   *  +    *  *   *   *  *   *   +    +    +    *   +    +    *  +   *  *   +  +   +  *   *  *   *   *   +    *   *   +   *  +  *   *   +  +  +    *  *   *  +   *  +   +    *  +  +    +  +    *  *  *  *  +  *   *   +  *   +    +  +    *   *  *   *  +    *   *   *   +    *  *  +   +    *   *  *   *  *   +  *  *  *   *   *   +  *   +   +    +    *  +    +    *   *  +  *   +  +    *   *   *   *   *  *  *  +   *   +    *  +    *   +    +    +   +  *   *   *  *   +   *  +  *  *   *  *  *  +   +   *  *   +  +  +    +  *  +    *   +   *   *   +  *  *  +  *   +  +  +  +    +   *  *   *   *  +    *  +    *   +    +   +    *  +    +   *   *   *  +    *   *   +    +  *  *   *  *   *   *   *   *   +    +  +  *  *   +   *  *  +   *   *   +  *  +   +   +  +    +   *   +    +    *  *  +   *  +    +    *   *  *   *   *   *  +  +    +    *   +  +  *  *  +  +    +  +  +    *   *   +   *   *   +   +  *   *  *  *  *   *   *  *  +   *  +   +   *   *  +    *   +  *  +    +    +    *  *   +  +    *   +   +  *   +  +    +    +    +   +    +   *  +    +   *  *   +    +  *  *  +   *  *  *  *  +    *  *  *  *   *   *   +   +   +    *  +    +   *   *  +    *  +    +   *   *  *   +  +  *   +   +    +   *  *   *  *   +  +   *   *   *  +  +  *   *  +    +  *   +   *   *   +   +   +    *  +   *   *   *   *  +   +    +  *  *   *   +  +   +    +    *  *   *  *   +   *  *  +   *   +    *  +    +   *  *   +    +   *   +   +  +    +  +    *  +   *  +    +  +  *   +   *  +  *  *   +    *  *  +  +    +   +    *  *  +   *   +    *   *  *  +   +    *  +    +    +  +  +  *  *  *   *  +  *  +  +    +    *  +   +  +   +  +    *  +   +  *   +  *   *   *  *   +   *   +   *  *   +  +  +    +  +   +  *  *  +  *   +   *   *  *   *  +    +  *  +   *  +    *  *  +    +   +  *   *   *  *  +   *   *  +    +  *   +    +   *   +   +   *  *   +  +   +   *  +    +    +   *  +    *   +    +   +  *   +   +   *   *   *  +   *   +    +    +    +  *   +    +  +  +    +   *   +    *  *   *   *   *  +   *   *   *   *   *   +  +    +  *  *  *   *   *  +   +    +    *   +    +  +   *  *   *  *  +    +   +    +    +    +  *  +    +  +    +   *   *  *   *  *  +  +    +  +    *  *  *   +   +    +  *  *   +    +  *  +   *  *   *   +    *  *   +  *   +  +  *  *   *   *  *   +  *  *  *  +  *  +    *   *  *   +   +    +    *   +    +    *   *   +   +   *  +    +    *  *   *   +   +    *   +   +    +    +    *  +   *  *   *   *   +   *  +    +    *  +   +    *  *  +    +    *  *  *  *   +  +    *   +    *   *   *   +    +    *   +    +  *   +  *   *  +  *  +  *  +  +  *   +  +    +  *  +   +    *  *   *   *   +   *   +    +  *   *  +   *   *   *   +   *  +   +    *   +  +    *   *  *   +   +  *  +   +   +    *   *   +   *  *   +  +    +  *   *   *   *  *  +  +   *   *   +    *  *   +   +  +   *   *   +   +    *  *  +  *   +    *   +    *  *   +   *  +  +    +  +    +    *  *  *   *   +    *  +   *   +  +    *  *   +   +    +  *  *  *  +   *  +   *   +    +  +  *  *  +  +   *  +   +   +  +   +    +  +    +   *  +    +    +    *   *   +   *  +   +   +   +    *   +  *  *   *   *   +    +  *   +  +    *  +    +   +    *   +    + `;
 
-const sample = `
-123 328  51 64 
+const sample = `123 328  51 64 
  45 64  387 23 
   6 98  215 314
 *   +   *   +  `;
 
-const a = input
-  .trim()
-  .split("\n")
-  .map((line) => line.trim().split(/\s+/));
+const a = sample;
 
+/**
+ * Applies the column operator to the running total.
+ *
+ * For "+":
+ *   normal accumulation.
+ *
+ * For "*":
+ *   - the first multiplication must start from 1, not 0
+ *   - `(total || 1)` ensures that the first value is multiplied correctly
+ */
 function calculateValueBasedOnOp(total, val, op) {
   switch (op) {
     case "+":
@@ -26,21 +32,137 @@ function calculateValueBasedOnOp(total, val, op) {
   }
 }
 
-function calculateTotal(i) {
+/**
+ * OLD VERSION (token-based)
+ * -------------------------
+ * This works only when spacing is irrelevant.
+ *
+ * It:
+ * - trims spaces
+ * - splits by whitespace
+ * - treats the input as a simple table
+ *
+ * Kept here for comparison and contrast.
+ */
+function calculateTotal(a) {
+  const i = a
+    .trim()
+    .split("\n")
+    .map((line) => line.trim().split(/\s+/));
+
   const rows = i.length;
   const cols = i[0].length;
   let grandTotal = 0;
+
   for (let c = 0; c < cols; c++) {
     let colTotal = 0;
     const op = i[rows - 1][c];
+
     for (let r = 0; r < rows - 1; r++) {
       const val = parseInt(i[r][c], 10);
       colTotal = calculateValueBasedOnOp(colTotal, val, op);
     }
+
     grandTotal += colTotal;
   }
 
   return grandTotal;
 }
 
-console.log("Grand Total - ", calculateTotal(a));
+/**
+ * NEW VERSION (layout-aware)
+ * --------------------------
+ * This version preserves spacing and treats the input
+ * as a CHARACTER GRID instead of a token table.
+ *
+ * Key ideas:
+ * - Columns are defined by character position
+ * - Numbers are right-aligned
+ * - Operators live in the last row
+ * - Numbers are built vertically (bottom → top)
+ */
+function calculateTotalV2(a) {
+  // Split into raw lines WITHOUT trimming
+  const i = a.split("\n");
+
+  const rows = i.length;
+  const cols = i[0].length;
+
+  let total = 0; // Final grand total
+  let currNumber = ""; // Digit buffer for one number
+  let colNumbers = []; // All numbers found in the current column
+
+  // Read columns from RIGHT → LEFT (matches problem description)
+  for (let c = cols - 1; c >= 0; c--) {
+    // Scan each column TOP → BOTTOM
+    for (let r = 0; r < rows; r++) {
+      const val = i[r][c];
+
+      /**
+       * If we hit an operator:
+       * - the column definition is complete
+       * - finalize the last number (if any)
+       * - evaluate the entire column
+       */
+      if (val === "+" || val === "*") {
+        // Finalize any number currently being built
+        colNumbers.push(parseInt(currNumber.trim(), 10));
+
+        const op = val;
+        let colTotal = 0;
+
+        // Apply the operator to all numbers in this column
+        for (let n = 0; n < colNumbers.length; n++) {
+          colTotal = calculateValueBasedOnOp(colTotal, colNumbers[n], op);
+        }
+
+        // Debug output (useful when revisiting)
+        console.log("Col Numbers - ", colNumbers);
+        console.log("Op - ", op);
+        console.log("Col Total - ", colTotal);
+
+        // Add column result to grand total
+        total += colTotal;
+
+        // Reset column state
+        colNumbers = [];
+        currNumber = "";
+      } else if (val === " ") {
+
+      /**
+       * Spaces mean:
+       * - end of a number
+       * - or empty vertical gap
+       * We intentionally ignore them here.
+       */
+        continue;
+      } else {
+
+      /**
+       * Any non-space, non-operator character
+       * is a digit belonging to a vertical number.
+       *
+       * Digits are collected top → bottom,
+       * but numbers are right-aligned,
+       * so they get reversed naturally by column order.
+       */
+        currNumber += val;
+      }
+    }
+
+    /**
+     * End of column:
+     * If a number was being built and no operator
+     * was encountered yet, finalize it now.
+     */
+    if (currNumber.length !== 0) {
+      colNumbers.push(parseInt(currNumber.trim(), 10));
+      currNumber = "";
+    }
+  }
+
+  return total;
+}
+
+// Final result
+console.log("Grand Total - ", calculateTotalV2(a));
